@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ResponsiPemrograman2826
 {
@@ -7,11 +7,8 @@ namespace ResponsiPemrograman2826
         static void Main(string[] args)
         {
 
-
-
             Karyawan karyawan = new Karyawan(190302123, "Paijo", 10000000);
             Karyawan karyawan2 = new Karyawan(190302124, "Jono", -50000000);
-
 
             Console.WriteLine("NIK\t Nama\t Gaji");
             Console.WriteLine("--------------------------");

@@ -30,7 +30,7 @@
         {
             double tmp = 0;
             tmp = 0.1 * GajiBulanan;
-            GajiBulanan += Convert.TOInt32(tmp);
+            GajiBulanan += Convert.ToInt32(tmp);
             Console.WriteLine("{0}\t {1}\t {2}", NIK, Nama, GajiBulanan);
         }
     }
